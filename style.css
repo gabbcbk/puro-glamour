@@ -10,19 +10,58 @@ header{
     border: solid 2px pink;
     height: 60px;
     width:10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo img{
+    width: 42%;
 }
 
 .pesquisa{
     border: solid 2px pink;
     height: 60px;
     width:50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
+
+.pesq{
+     width: 95%;
+    border: solid 1px #351d01;
+   border-radius: 28px;
+    height: 27px;
+}
+.iconFace{
+     fill: black;
+    height: 25px;
+
+}
+    
 
 .login{
     border: solid 2px pink;
     height: 60px;
     width:15%;
+    display: flex;
 }
+
+.bemVindas{
+    width: 50%;
+    border: solid 1px #351d01;
+}
+
+.icone{
+    width: 50%;
+    border: solid 1px #351d01;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
 
 nav{
     border: solid 2px pink;
@@ -31,7 +70,10 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}.menu{
+    
+}
+
+.menu{
     border: solid 2px pink;
     width: 80%;
     height: 60px;
