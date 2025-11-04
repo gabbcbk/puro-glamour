@@ -1,3 +1,9 @@
+body{
+    background-color: #fdf9fa;
+}
+
+
+
 header{
     border: solid 1px pink;
     height: 80px;
@@ -76,9 +82,23 @@ nav{
 .menu{
     border: solid 2px pink;
     width: 80%;
-    height: 60px;
-
+    height: 60px; 
+    display: flex;
+    justify-content: space-around;
 }
+
+.menu ul{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+}
+
+.menu li{
+    display: flex;
+    margin-right: 20px;
+}
+    
 
 /* //ate aqui */
 
@@ -93,9 +113,21 @@ nav{
 
 .menuPrincipal{
     border: solid 2px rgb(120, 166, 235);
-    width: 60%;
+    width: 100%;
     height: 60px;
-     
+    display: flex;
+    justify-content: space-around;
+}
 
+.menuPrincipal ul{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+}
+
+.menuPrincipal li{
+    display: flex;
+    margin-right: 20px;
 }
 
