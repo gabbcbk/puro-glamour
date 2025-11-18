@@ -145,17 +145,111 @@ nav{
     width: 50%;
     height: 70px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 
-.circulo1{
-    width: 60px; 
-    height: 60px;
+.circulo{
+    width: 73px; 
+    height: 73px;
     border: solid 2px rgb(245, 163, 204);
     border-radius: 50%; 
     overflow: hidden; 
     display: flex; 
     justify-content: center;
     align-items: center;
+    margin: 0 5px;
 }
+
+.circulo.im1{
+    background-image: url("/imagens/feminino.jpg");
+    background-size: cover;
+}
+
+.circulo.im2{
+    background-image: url("/imagens/acessoriofc.jpg");
+     background-size: cover;
+}
+
+.circulo.im3{
+    background-image: url("/imagens/langerie.jpg");
+     background-size: cover;
+}
+
+.circulo.im4{
+    background-image: url("/imagens/tenis.jpg");
+     background-size: cover;
+    }
+
+.circulo.im5{
+    background-image: url("/imagens/casaco.jpg");
+     background-size: cover;
+    }
+
+ .circulo.im6{
+    background-image: url("/imagens/academia.jpg");
+     background-size: cover;
+    }
+
+ .circulo.im7{
+    background-image: url("/imagens/download\ \(2\).jpg");
+     background-size: cover;
+ }
+
+ .circulo.im8{
+    background-image: url("/imagens/criança.jpg");
+     background-size: cover;
+ }
+
+
+.paiImagem{
+    border: solid 2px rgb(149, 136, 223);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:  10px;
+}
+
+.filhoImagemGrande{
+     border: solid 2px rgb(245, 163, 204);
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.maisVendidos{
+   border: solid 2px rgb(245, 163, 204);
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.textoMaisVendidos{
+    margin-left: 9px;
+    font-size: 34px;
+}
+
+.paiCheioDeFilho{
+     border: solid 2px rgb(245, 163, 204);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.filho{
+    border: solid 2px rgb(132, 189, 142);
+    height: 110px;
+    width: 16%;
+
+}
+
