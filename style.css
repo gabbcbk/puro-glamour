@@ -1,11 +1,15 @@
+*{
+    list-style-type: none
+}
+
 body{
-    background-color: #fdf9fa;
+    background-color: hsl(346, 52%, 92%);
 }
 
 
 
 header{
-    border: solid 1px pink;
+    /* border: solid 1px pink; */
     height: 80px;
     display:flex;
     justify-content: space-around;
@@ -13,7 +17,7 @@ header{
 }
 
 .logo{
-    border: solid 2px pink;
+    /* border: solid 2px pink; */
     height: 60px;
     width:10%;
     display: flex;
@@ -26,7 +30,7 @@ header{
 }
 
 .pesquisa{
-    border: solid 2px pink;
+    /* border: solid 2px pink; */
     height: 60px;
     width:50%;
     justify-content: center;
@@ -36,7 +40,7 @@ header{
 
 .pesq{
      width: 95%;
-    border: solid 1px #351d01;
+    /* border: solid 1px #351d01; */
    border-radius: 28px;
     height: 27px;
 }
@@ -48,7 +52,7 @@ header{
     
 
 .login{
-    border: solid 2px pink;
+    /* border: solid 2px pink; */
     height: 60px;
     width:15%;
     display: flex;
@@ -56,12 +60,12 @@ header{
 
 .bemVindas{
     width: 50%;
-    border: solid 1px #351d01;
+    /* border: solid 1px #351d01; */
 }
 
 .icone{
     width: 50%;
-    border: solid 1px #351d01;
+    /* border: solid 1px #351d01; */
     display: flex;
     justify-content: start;
     align-items: center;
@@ -70,7 +74,7 @@ header{
 
 
 nav{
-    border: solid 2px pink;
+    /* border: solid 2px pink; */
     height: 80px;
     width: 100%;  
     display: flex;
@@ -80,51 +84,58 @@ nav{
 }
 
 .menu{
-    border: solid 2px pink;
+    /* border: solid 2px pink; */
     width: 80%;
     height: 60px; 
     display: flex;
     justify-content: space-around;
+    
 }
 
 .menu ul{
     display: flex;
-    background-color: white;
-    padding: 20px;
+    padding: 18px;
     align-items: center;
+    background-color: #f9f3f3;
+    border-radius: 20px;
 }
 
 .menu li{
     display: flex;
     margin-right: 20px;
+    
 }
     
 
 /* //ate aqui */
 
 .menu2{
-    border: solid 2px rgb(173, 97, 218);
+    /* border: solid 2px rgb(173, 97, 218); */
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .menuPrincipal{
-    border: solid 2px rgb(120, 166, 235);
+    /* border: solid 2px rgb(120, 166, 235); */
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .menuPrincipal ul{
     display: flex;
-    background-color: white;
-    padding: 20px;
+    padding: 18px;
     align-items: center;
+     background-color: #f9f3f3;
+    border-radius: 20px;
 }
+
 
 .menuPrincipal li{
     display: flex;
@@ -132,7 +143,7 @@ nav{
 }
 
 .destaque{
-    border: solid 2px rgb(245, 163, 204);
+    /* border: solid 2px rgb(245, 163, 204); */
     width: 100%;
     height: 100px;
     display: flex;
@@ -141,18 +152,22 @@ nav{
 }
 
 .filhoDestaque{
-      border: solid 2px rgb(245, 163, 204);
-    width: 50%;
+      /* border: solid 2px rgb(245, 163, 204); */
+    width: 43%;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #f9f3f3;
+    padding: 14px;
+    border-radius: 20px;
+    margin-bottom: 27px;
 }
 
 .circulo{
     width: 73px; 
     height: 73px;
-    border: solid 2px rgb(245, 163, 204);
+    /* border: solid 2px rgb(245, 163, 204); */
     border-radius: 50%; 
     overflow: hidden; 
     display: flex; 
@@ -162,48 +177,48 @@ nav{
 }
 
 .circulo.im1{
-    background-image: url("/imagens/feminino.jpg");
+    background-image: url("imagens/feminino.jpg");
     background-size: cover;
 }
 
 .circulo.im2{
-    background-image: url("/imagens/acessoriofc.jpg");
+    background-image: url("imagens/acessoriofc.jpg");
      background-size: cover;
 }
 
 .circulo.im3{
-    background-image: url("/imagens/langerie.jpg");
+    background-image: url("imagens/langerie.jpg");
      background-size: cover;
 }
 
 .circulo.im4{
-    background-image: url("/imagens/tenis.jpg");
+    background-image: url("imagens/tenis.jpg");
      background-size: cover;
     }
 
 .circulo.im5{
-    background-image: url("/imagens/casaco.jpg");
+    background-image: url("imagens/casaco.jpg");
      background-size: cover;
     }
 
  .circulo.im6{
-    background-image: url("/imagens/academia.jpg");
+    background-image: url("imagens/academia.jpg");
      background-size: cover;
     }
 
  .circulo.im7{
-    background-image: url("/imagens/download\ \(2\).jpg");
+    background-image: url("imagens/Acessorios.jpg");
      background-size: cover;
  }
 
  .circulo.im8{
-    background-image: url("/imagens/criança.jpg");
+    background-image: url("imagens/criança.jpg");
      background-size: cover;
  }
 
 
 .paiImagem{
-    border: solid 2px rgb(149, 136, 223);
+    /* border: solid 2px rgb(149, 136, 223); */
     width: 100%;
     height: 300px;
     display: flex;
@@ -213,7 +228,7 @@ nav{
 }
 
 .filhoImagemGrande{
-     border: solid 2px rgb(245, 163, 204);
+     /* border: solid 2px rgb(245, 163, 204); */
     width: 80%;
     height: 250px;
     display: flex;
@@ -223,7 +238,7 @@ nav{
 
 
 .maisVendidos{
-   border: solid 2px rgb(245, 163, 204);
+   /* border: solid 2px rgb(245, 163, 204); */
     width: 100%;
     height: 85px;
     display: flex;
@@ -237,19 +252,179 @@ nav{
 }
 
 .paiCheioDeFilho{
-     border: solid 2px rgb(245, 163, 204);
+     /* border: solid 2px rgb(245, 163, 204); */
     width: 100%;
-    height: 250px;
+    height: 288px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background: #f9f3f3;
+}
+
+.filho{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 270px;
+    width: 11%;
+    border-radius: 18px;
+    background-color: #88533a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.filhoImg1{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 200px;
+    width: 80%;
+    border-radius: 18px;
+    background-color: #fffefd;
+    background-image: url("./imagens/calça.jpg");
+    background-size: cover;
+
+}
+
+.filhoImg2{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 200px;
+    width: 80%;
+    border-radius: 18px;
+    background-color: #fffefd;
+    background-image: url("./imagens/blusa\ chic.jpg");
+    background-size: cover;
+}
+
+.filhoImg3{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 200px;
+    width: 80%;
+    border-radius: 18px;
+    background-color: #fffefd;
+    background-image: url("./imagens/conjunto\ rosa.jpg");
+    background-size: cover;
+}
+
+.filhoImg4{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 200px;
+    width: 80%;
+    border-radius: 18px;
+    background-color: #fffefd;
+    background-image: url("./imagens/casaco.jpg");
+    background-size: cover;
+    background-position: -20px 0px
+}
+
+.filhoImg5{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 200px;
+    width: 80%;
+    border-radius: 18px;
+    background-color: #fffefd;
+    background-image: url("./imagens/blusa.jpg");
+    background-size: cover;
+}
+
+
+
+.paiCheioDeFilho2{
+     /* border: solid 2px rgb(245, 163, 204); */
+    width: 100%;
+    height: 288px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 10px;
 }
 
-.filho{
-    border: solid 2px rgb(132, 189, 142);
-    height: 110px;
-    width: 16%;
+.filhoImg6{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 200px;
+    width: 80%;
+    border-radius: 18px;
+    background-color: #fffefd;
+    background-image: url("./imagens/conjunto.jpg");
+    background-size: cover;
+}
 
+.filhoImg7{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 200px;
+    width: 80%;
+    border-radius: 18px;
+    background-color: #fffefd;
+    background-image: url("imagens/JeanLarga.jpg");
+    background-size: cover;
+}
+
+.filhoImg8{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 200px;
+    width: 80%;
+    border-radius: 18px;
+    background-color: #fffefd;
+    background-image: url("./imagens/saia\ jeans\ sd.jpg");
+    background-size: cover;
+}
+
+.filhoImg9{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 200px;
+    width: 80%;
+    border-radius: 18px;
+    background-color: #fffefd;
+    background-image: url("./imagens/୨ৎ.jpg");
+    background-size: cover;
+}
+
+.filhoImg10{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 200px;
+    width: 80%;
+    border-radius: 18px;
+    background-color: #fffefd;
+    background-image: url("./imagens/saia\ jeans.jpg");
+    background-size: cover;
+}
+
+.rodape{
+   /* border: solid 2px rgb(245, 163, 204); */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background: #f9f3f3;
+} 
+
+.div-footer{
+    /* border: solid 2px rgb(26, 18, 5); */
+    height: 151px;
+    width: 15%;
+   
+}
+.menuRod{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tituloRod{
+    text-align: center;
+    position: relative;
+    right: -19px;
+}
+
+img.logoRod{
+    width: 40%;
+    height: 45%;
+}
+
+.div-footer.logo{
+justify-content: center;
+align-items: center;
+display: flex;
 }
 
